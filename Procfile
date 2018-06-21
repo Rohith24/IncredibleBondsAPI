@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=-
+web: gunicorn IncredibleBondsAPI.wsgi --log-file -
